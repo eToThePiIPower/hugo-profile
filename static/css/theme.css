@@ -55,7 +55,7 @@ body *::selection {
     background-color: var(--primary-color) !important;
 }
 
-#recent-posts, #list-page {
+#recent-posts, #list-page .card-body {
   font-size: 1rem;
 
   h1,h5 {
