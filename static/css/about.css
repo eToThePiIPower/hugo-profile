@@ -116,7 +116,7 @@
     margin: 5px;
     margin-bottom: 2em;
     padding: 2em;
-    background-color: var(--secondary-color) !important;
+    background-color: var(--code-bg-color) !important;
     color: var(--text-secondary-color) !important;
     max-height: 450px;
 }

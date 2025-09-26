@@ -54,3 +54,13 @@ body *::selection {
     color: var(--text-color) !important;
     background-color: var(--primary-color) !important;
 }
+
+#recent-posts .card-text pre,
+#list-page .card-text pre {
+  background-color: var(--code-bg-color)!important;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  * {
+    background-color: var(--code-bg-color)!important;
+  }
+}

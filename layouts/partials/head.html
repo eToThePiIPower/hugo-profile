@@ -50,6 +50,9 @@
         --primary-color: {{ .Site.Params.color.primaryColor | default "#007bff" }};
         --secondary-color: {{ .Site.Params.color.secondaryColor | default "#f8f9fa" }};
 
+        /* code background color for both light and dark */
+        --code-bg-color: {{ .Site.Params.color.codeBackgroundColor | default "#18191a" }};
+
         /* dark mode colors */
         --text-color-dark: {{ .Site.Params.color.darkmode.textColor | default "#e4e6eb" }};
         --text-secondary-color-dark: {{ .Site.Params.color.darkmode.secondaryTextColor | default "#b0b3b8" }};
