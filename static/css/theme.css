@@ -55,6 +55,22 @@ body *::selection {
     background-color: var(--primary-color) !important;
 }
 
+#recent-posts, #list-page {
+  font-size: 1rem;
+
+  h1,h5 {
+    font-size: 1.25rem;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 1.125rem!important;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 500;
+  }
+}
+
 #recent-posts .card-text pre,
 #list-page .card-text pre {
   background-color: var(--code-bg-color)!important;
