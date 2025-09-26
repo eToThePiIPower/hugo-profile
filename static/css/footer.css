@@ -62,3 +62,7 @@ footer .card > .card-header .card-img-top {
     object-fit: cover;
     background-color: transparent !important;
 }
+
+footer #copyright {
+  font-size: 80%;
+}
