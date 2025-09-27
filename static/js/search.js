@@ -88,9 +88,11 @@ async function performSearch(evt) {
           contentDiv.className = "p-3";
 
           const title = document.createElement("h5");
+          title.className = "search-title";
           title.textContent = item.title || "Untitled"; // Use textContent to prevent XSS
 
           const description = document.createElement("div");
+          description.className = "search-description";
           description.textContent = item.description || "No description available"; // Safe
 
           contentDiv.appendChild(title);

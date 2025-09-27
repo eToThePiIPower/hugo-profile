@@ -125,3 +125,12 @@ li > .dropdown-toggle:focus{
 #search-results .card a:hover {
     color: var(--primary-color) !important;
 }
+
+#search-results .card .search-title {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1.0rem;
+}
+
+#search-results .card .search-description {
+  font-size: 0.8rem;
+}
